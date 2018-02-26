@@ -1,0 +1,251 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h3{
+    color: rgb(41, 106, 160);
+}
+   
+#wrapper{
+    width: 970px;
+    background: rgb(255, 255, 255);
+    margin: 0px auto;
+}
+
+                #heading{
+                height: 167px;
+                background-color: white;
+                }
+                #heading img{
+                    height: 140px;
+                    display: inline-block;
+                }
+                #heading h1{
+                    font-size: 40pt;
+                    font-family: Helvetica;
+                    display: inline-block;
+                    vertical-align: top;
+                    margin-top: 50px;
+                }
+                #heading h2{
+                    background-color: rgb(41, 106, 160);
+                    background: linear-gradient(rgb(41, 106, 160), rgb(82, 131, 173), rgb(41, 106, 160));
+                    color: white;
+                    font-family: Times New Roman;
+                    font-size: 25pt;
+                    vertical-align: top;
+                    margin-top: -25px;
+                    padding-left: 20px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                }
+                #inline_text1{
+                    color: rgb(41,106,160);
+                }
+#top_content{
+
+}
+
+#top_content_left{
+    width: 200px;
+    display: inline-block;
+    border-bottom: solid grey;
+    border-bottom-width: 2px;
+    margin-left: 5px;
+    margin-right: 61px;
+    vertical-align: top;
+    /* background-color: grey; */
+    border-bottom: solid rgb(192, 192, 192);
+    border-bottom-width: 2px;
+}
+#top_content_left button{
+    width: 194px;
+    display: block;
+    padding: 5px 0px;
+}
+#red {
+    color: red;
+}
+.darkBlue {
+    color: rgb(41,106,160);
+}
+#top_content_left :nth-child(1){
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 13pt;
+    font-weight: bold;
+}
+#top_content_left :nth-child(2){
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 11pt;
+    font-weight: bold;
+}
+#top_content_left :nth-child(3){
+    background-color: rgb(41, 106, 160);
+    color: white;
+    font-size: 12pt;
+    width: 170px;
+    padding: 3px 3px;
+    margin-bottom: 2px;
+    border-radius: 4px;
+    border-color: rgb(41, 106, 160);
+    background: linear-gradient(rgb(94, 149, 193), rgb(41, 106, 160));
+    border-right-style: outset;
+    border-bottom-style: outset;
+    border-width: 2px;
+    margin-left: 14px;
+}
+#top_content_left :nth-child(4){
+    background-color: orange;
+    color: white;
+    font-size: 12pt;
+    width: 170px;
+    padding: 3px 3px;
+    border-radius: 4px;
+    border-color: rgb(240, 118, 0);
+    background: linear-gradient(rgb(235, 170, 79), rgb(240, 118, 0));
+    border-right-style: outset;
+    border-bottom-style: outset;
+    border-width: 2px;
+    margin-left: 14px;
+    margin-bottom: 20px;
+}
+                #top_content_right{
+                    width: 700px;
+                    display: inline-block;
+                    /* background-color: grey; */
+                }
+                #smallHeader{
+                    border-bottom: solid rgb(192, 192, 192);
+                    border-bottom-width: 2px;
+                }
+                #home{
+                    width: 23px;
+                    margin-top: 6px;
+                    display: inline-block;
+                    vertical-align: top;
+                }
+                #phone{
+                    width: 35px;
+                    /* background-color: red; */
+                    margin-right: 3px;
+                    margin-bottom: 5px;
+                }
+                #dns{
+                    display: inline-block;
+                    width:35px;
+                    color: rgb(41, 106, 160);
+                    /* background-color: red; */
+                    margin-top: 10px;
+                    vertical-align: top;
+                    margin-right: 440px;
+                }
+
+                #call_info{
+                    width: 200;
+                    display: inline-block;
+                }
+                #call_info :nth-child(1){
+                    font-size: 9pt;
+                }
+                #call_info :nth-child(2){
+                    font-size: 15pt;
+                    font-weight: bold;
+                    color: rgb(13, 195, 224);
+                }
+                #call_info :nth-child(3){
+                    font-size: 9pt;
+                }
+                .lightBlue{
+                    color: rgb(104, 195, 208);
+                }
+               
+                #clients ul{
+                    margin-left: 40px;
+                }
+
+#mid_content{
+
+
+}
+#mid_content_left{
+    width: 200px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 61px;
+    display: inline-block;
+    background-image: url('/images/ad_background.png');
+}
+#mid_content_left :nth-child(1){
+    display: block;
+    font-size: 18pt;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+#mid_content_left :nth-child(2){
+    width: 100px;
+    display: block;
+    margin: 0px auto;
+}
+#mid_content_left :nth-child(3){
+    display: block;
+    margin: 0px auto;
+    margin-top: 5px;
+    background: linear-gradient(rgb(114,207,223),rgb(0, 193, 223));
+    border-color: black;
+    border-width: 1px;
+    border-radius: 3px;
+    font-size: 12pt;
+    color: white;
+    padding: 3px 40px;
+}
+                #mid_content_right{
+                    width: 700px;
+                    display: inline-block;
+                    /* background-color: grey; */
+                }
+                #mid_content_right img{
+                    display: block;
+                    width: 250px;
+                    margin: 0px auto;
+                    margin-bottom: 20px;
+                }
+                #mid_content_right ol{
+                    margin-left: 40px;
+                }
+
+#bottom_content{
+    width: 700px;
+    margin-left: 270px;
+    margin-top: -10px;
+    /* background-color: grey; */
+    border-top: solid rgb(0, 133, 224);
+    border-right: solid rgb(0, 133, 224);
+    border-left: solid rgb(0, 133, 224);
+    border-width: 4px;
+    box-shadow: 2px 0px 0px 0px grey;
+}
+#bottom_content img{
+    width: 100px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#big_three{
+    display: inline-block;
+    /* background-color: grey; */
+    margin-left: 10px;
+}
+#big_three p{
+    width: 560px;
+    /* background-color: green; */
+    margin: 5px 0px;
+}
+#b3_link a{
+    text-decoration: none;
+    color: rgb(104, 195, 208);
+}
